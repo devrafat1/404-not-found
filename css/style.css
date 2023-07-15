@@ -88,7 +88,7 @@ header h2 {
     text-align: center;
     color: #BDBDBD;
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 500;
 }
 
@@ -130,51 +130,11 @@ header h2 {
     }
 
     .text-area p {
-        width: 100%;
+        box-sizing: border-box;
         font-size: 1rem;
     }
-    
-}
 
-@media screen and (max-width: 767px) {
-    .main-container{
-        flex-direction: column;
-    }
-
-    .img-area {
-        width: 100%;
-    }
-
-    .text-area {
-        width: 100%;
-    }
-
-    .text-area h1 {
-        width: 100%;
-        font-size: 2.25rem;
-    }
-}
-
-@media screen and (max-width: 991px) {
-    .main-container{
-        flex-direction: column;
-    }
-
-    .img-area {
-        width: 100%;
-    }
-
-    .text-area {
-        width: 100%;
-    }
-
-    .text-area h1 {
-        width: 100%;
-        font-size: 2.5rem;
-    }
-
-    .text-area p {
-        width: 100%;
-        font-size: 1.375rem;
+    .footer{
+        font-size: 0.813rem;
     }
 }
