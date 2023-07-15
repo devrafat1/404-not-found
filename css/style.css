@@ -104,6 +104,14 @@ header h2 {
 /* Responsive Design */
 
 @media screen and (max-width: 575px) {
+    header h2{
+        font-size: 1.5rem;
+    }
+
+    .container {
+        padding: 1.3rem 2.5rem;
+    }
+
     .main-container{
         flex-direction: column;
     }
@@ -123,11 +131,7 @@ header h2 {
 
     .text-area p {
         width: 100%;
-        font-size: 1.125rem;
-    }
-
-    .footer {
-        text-align: left;
+        font-size: 1rem;
     }
     
 }
@@ -148,11 +152,6 @@ header h2 {
     .text-area h1 {
         width: 100%;
         font-size: 2.25rem;
-    }
-
-    .text-area p {
-        width: 100%;
-        font-size: 1.25rem;
     }
 }
 
