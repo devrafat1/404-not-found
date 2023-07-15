@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+ 
+/* Common Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+    ;
+}
+
+.container {
+    padding: 2.5rem 4.813rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Header Area */
+
+header h2 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 700;
+    letter-spacing: -1.92px;
+}
+
+/* Main Area */
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.img-area {
+    width: 50%;
+}
+
+.text-area {
+    width: 50%;
+}
+
+.text-area h1 {
+    color: #333;
+    font-family: 'Space Mono', monospace;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: -1.92px;
+    width: 80%;
+}
+
+.text-area p {
+    color: #4F4F4F;
+    font-family: 'Space Mono', monospace;
+    ;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: -0.84px;
+    margin-top: 2.25rem;
+    width: 65%;
+}
+
+.btn {
+    font-family: 'Space Mono', monospace;
+    color: #FFF;
+    background-color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.49px;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    margin-top: 4rem;
+}
+
+/* Footer Area */
+
+.footer {
+    text-align: center;
+    color: #BDBDBD;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.username {
+    color: #BDBDBD;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 575px) {
+    .main-container{
+        flex-direction: column;
+    }
+
+    .img-area {
+        width: 100%;
+    }
+
+    .text-area {
+        width: 100%;
+    }
+
+    .text-area h1 {
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .text-area p {
+        width: 100%;
+        font-size: 1.125rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main-container{
+        flex-direction: column;
+    }
+
+    .img-area {
+        width: 100%;
+    }
+
+    .text-area {
+        width: 100%;
+    }
+
+    .text-area h1 {
+        width: 100%;
+        font-size: 2.25rem;
+    }
+
+    .text-area p {
+        width: 100%;
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .main-container{
+        flex-direction: column;
+    }
+
+    .img-area {
+        width: 100%;
+    }
+
+    .text-area {
+        width: 100%;
+    }
+
+    .text-area h1 {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    .text-area p {
+        width: 100%;
+        font-size: 1.375rem;
+    }
+}
