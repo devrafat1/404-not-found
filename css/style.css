@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
- 
+
 /* Common Styles */
 
 * {
@@ -104,7 +104,7 @@ header h2 {
 /* Responsive Design */
 
 @media screen and (max-width: 575px) {
-    header h2{
+    header h2 {
         font-size: 1.5rem;
     }
 
@@ -112,8 +112,9 @@ header h2 {
         padding: 1.3rem 2.5rem;
     }
 
-    .main-container{
+    .main-container {
         flex-direction: column;
+        padding: 1.5rem 2.5rem;
     }
 
     .img-area {
@@ -125,16 +126,18 @@ header h2 {
     }
 
     .text-area h1 {
+        font-size: 2.5rem;
+        letter-spacing: -1.68px;
         width: 100%;
-        font-size: 1.75rem;
     }
 
     .text-area p {
-        box-sizing: border-box;
         font-size: 1rem;
+        letter-spacing: -0.63px;
+        width: 100%;
     }
 
-    .footer{
+    .footer {
         font-size: 0.813rem;
     }
 }
