@@ -125,6 +125,11 @@ header h2 {
         width: 100%;
         font-size: 1.125rem;
     }
+
+    .footer {
+        text-align: left;
+    }
+    
 }
 
 @media screen and (max-width: 767px) {
