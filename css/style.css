@@ -53,10 +53,10 @@ header h2 {
 .text-area h1 {
     color: #333;
     font-family: 'Space Mono', monospace;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 700;
     letter-spacing: -1.92px;
-    width: 80%;
+    width: 90%;
 }
 
 .text-area p {
@@ -139,5 +139,81 @@ header h2 {
 
     .footer {
         font-size: 0.813rem;
+    }
+}
+
+/* Medium / Tablet Devices */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    header h2 {
+        font-size: 2.5rem;
+    }
+
+    .container {
+        padding: 1.3rem 2.5rem;
+    }
+
+    .main-container {
+        flex-direction: column;
+        padding: 1.5rem 2.5rem;
+    }
+
+    .img-area {
+        width: 100%;
+    }
+
+    .text-area {
+        width: 100%;
+    }
+
+    .text-area h1 {
+        font-size: 3.4rem;
+        letter-spacing: -1.68px;
+        width: 100%;
+    }
+
+    .text-area p {
+        font-size: 1rem;
+        letter-spacing: -0.63px;
+        width: 100%;
+    }
+
+    .footer {
+        font-size: 0.813rem;
+    }
+}
+
+/* Desktop / Large Devices */
+
+@media screen and (min-width: 1367px) and (max-width: 1920px) {
+    header h2 {
+        font-size: 4rem;
+    }
+
+    .container {
+        padding: 3rem 7rem;
+    }
+
+    .main-container {
+        padding: 2rem 3.5rem;
+        align-items: center;
+    }
+
+    .text-area h1 {
+        font-size: 5rem;
+        letter-spacing: -2.24px;
+        width: 100%;
+    }
+
+    .text-area p {
+        font-size: 1.5rem;
+        letter-spacing: -0.63px;
+        width: 50%;
+        margin-top: 3rem;
+        margin-bottom: 3.1rem;
+    }
+
+    .footer {
+        font-size: 1.2rem;
     }
 }
